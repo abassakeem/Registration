@@ -1,0 +1,96 @@
+.loginSection{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left, #000  , #181818);   
+}
+.musicshop-nav{
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+.musicshop-brand{
+    color:#f8e558 !important;
+    font-weight: bolder ;
+}
+
+.continue-option{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #f3f3f3;
+    border-radius: 20px ;
+    width: 280px;
+    margin: 4px;
+    font-size: 12px;
+    
+}
+.continue-option-1 span, .continue-option-2  span{
+    margin-left: 30px;
+}
+.continue-option-2 span{
+    margin-right:10px ;
+   
+    
+}
+hr{
+    background-color: red;
+}
+.login-page-form{
+    width: 300px;
+    text-align: left;
+}
+.bottom-section{
+    color:#fff
+}
+.password-text, .email-text,.fullname-text{
+    font-size: 12px;
+}
+.password-input, .email-input,.fullname-input{
+    background-color: #121212 !important;
+    color: #a7a7a7 ;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    outline: none !important;
+    
+}
+.password-input:focus, .email-input:focus,.fullname-input:focus{
+    background-color: #121212 !important;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+    transition: 0.2s;
+    
+}
+
+.password-input input{
+    border: 1px solid #f3f3f3;
+    
+}
+
+ .password-input, .email-input,.fullname-input{
+    color: #a7a7a7 !important;
+    font-size: 12px;
+
+}
+ .password-input::placeholder, .email-input::placeholder,.fullname-input::placeholder{
+    color: #a7a7a7 !important;
+    font-size: 12px;
+
+}
+.bad-boy{
+    height: 100vh;
+}
+
+
+.remember-me-button input{
+    /* background-color: #f8e558; */
+}
+.bottom-section .login-submit-button{
+    background-color: #f8e558;
+    color: #000;
+    width: 300px;
+    font-size: 12px;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 50px;
+}
