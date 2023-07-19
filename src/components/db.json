@@ -65,6 +65,24 @@
       "email": "jjej@gmail.com",
       "password": "skeyee",
       "id": 14
+    },
+    {
+      "fullname": "lanreabassab1@gmail.com",
+      "email": "abass@gmail.com",
+      "password": "pass",
+      "id": 15
+    },
+    {
+      "fullname": "lanreabassab1@gmail.com",
+      "email": "lanreabassab1@gmail.com",
+      "password": "dupe",
+      "id": 16
+    },
+    {
+      "fullname": "bad boy",
+      "email": "akeem@gmail.com",
+      "password": "baddest boy",
+      "id": 17
     }
   ]
 }

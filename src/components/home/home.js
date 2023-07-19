@@ -27,10 +27,9 @@ const Home = () => {
                 <Row>
                     <Col>
                     <h2>User Data:</h2>
-                        <ul>
-                            
-                        </ul>
-                        <Table striped bordered variant="dark" hover>
+                        
+                        <Container>
+                        <Table responsive="sm" striped bordered variant="dark" hover>
                             <thead>
                                 <tr>
                                 <th>#</th>
@@ -41,6 +40,7 @@ const Home = () => {
                             </thead>
                             <tbody>
                             {jsonData.map((data) => (
+                                
 
                                 <tr>
                                 <td>{data.id}</td>
@@ -53,6 +53,7 @@ const Home = () => {
                                 
                             </tbody>
                             </Table>
+                            </Container>
                     </Col>
                 </Row>
             </Container>
